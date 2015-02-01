@@ -16,7 +16,7 @@ Once you have all the dependencies, you can simply type 'make' in the 'src' dire
 
 Usage
 --------------
-If you forgot how to use dyesvg, simply type it into the command line without any arguments. It takes at least two arguments, as follows
+If you forgot how to use dyesvg, simply type it into the command line without any arguments to show the help. Dyesvg takes at least two arguments as follows
 
       $ dyesvg CSSFile SVGFile [SVGFile ...]
 
@@ -26,7 +26,7 @@ The CSSFile contains a CSS statement of the following form:
 
 Both 'fill' and 'stroke' are necessary to completely dye the SVG. After the CSSFile argument, you can insert any number of SVGFiles which will all be handled in the same way.
 
-dyesvg will remove all the RGB statements within any tags and insert a style tag into the SVG. After the removal of all RGB statements, the CSS within the style tag shouldn't be overridden anymore.
+Dyesvg will remove all the RGB statements within any tags and insert a style tag into the SVG. After the removal of all RGB statements, the CSS within the style tag shouldn't be overridden anymore.
 
 
 Example
@@ -37,6 +37,6 @@ Then we'll run dyesvg like this
 
         $ ../src/dyesvg svg.css example_1.svg example_2.svg
 
-You can also type 'make' instead. 
+You can also type 'make' in the 'example' directory instead. 
 
 Two new files will be generated: example\_1\_dyed.svg and example\_2\_dyed.svg. Open them up in your browser to see the effects. Note that the opacity in the diagram of example\_1.svg is unaffected.
