@@ -35,7 +35,7 @@ Go to the 'example' directory and open the example\_1.svg and example\_2.svg fil
 
 Then we'll run dyesvg like this
 
-        $ ../src/dyesvg svg.css example\_1.svg example\_2.svg
+        $ ../src/dyesvg svg.css example_1.svg example_2.svg
 
 You can also type 'make' instead. 
 
