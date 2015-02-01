@@ -1,0 +1,4 @@
+**/*.hi
+**/*.o
+src/dyesvg
+example/example*dyed.svg
